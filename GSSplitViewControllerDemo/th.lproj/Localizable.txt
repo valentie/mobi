@@ -1,0 +1,302 @@
+/* SAMPLE */
+"Text Original in English" = "TEXT THAT WILL SHOW IN THAI (PLACE THE THAI TRANSLATION BETWEEN THESE 2 QUOTES";
+
+
+
+/*     About MOBI Television */
+"    About MOBI Television" = "    About MOBI Television";
+
+/*     All */
+"    All" = "    All";
+
+/*     Favourites */
+"    Favourites" = "    Favourites";
+
+/*     Help */
+"    Help" = "    Help";
+
+/*     Login */
+"    Login" = "    Login";
+
+/*     Logout */
+"    Logout" = "    Logout";
+
+/*     My Profile */
+"    My Profile" = "    My Profile";
+
+/*     My VDO */
+"    My VDO" = "    My VDO";
+
+/*     News */
+"    News" = "    News";
+
+/*     Purchased */
+"    Purchased" = "    Purchased";
+
+/*     Register */
+"    Register" = "    Register";
+
+/*     Restore Purchases */
+"    Restore Purchases" = "    Restore Purchases";
+
+/* %@\r\n%@ Credits */
+"%@\r\n%@ Credits" = "%1$@\r\n%2$@ Credits";
+
+/* ABOUT US */
+"ABOUT US" = "ABOUT US";
+
+/* Cancel */
+"Cancel" = "Cancel";
+
+/* Cancelled by user */
+"Cancelled by user" = "Cancelled by user";
+
+/* No comment provided by engineer. */
+"Cellular" = "Cellular";
+
+/* No comment provided by engineer. */
+"Check your parental control settings and try again later" = "Check your parental control settings and try again later";
+
+/* Comments */
+"Comments" = "Comments";
+
+/* Confirm Purchase */
+"Confirm Purchase" = "Confirm Purchase";
+
+/* Connecting... */
+"Connecting..." = "Connecting...";
+
+/* Could not connect */
+"Could not connect" = "Could not connect";
+
+/* AFNetworking */
+"Could not decode string: %@" = "Could not decode string: %@";
+
+/* AFNetworking */
+"Data failed decoding as a UTF-8 string" = "Data failed decoding as a UTF-8 string";
+
+/* No comment provided by engineer. */
+"Dismiss" = "Dismiss";
+
+/* Enter a description */
+"Enter a description" = "Enter a description";
+
+/* Enter a tag: */
+"Enter a tag:" = "Enter a tag:";
+
+/* Enter Email */
+"Enter Email" = "Enter Email";
+
+/* Enter Email or Phone */
+"Enter Email or Phone" = "Enter Email or Phone";
+
+/* Enter Password */
+"Enter Password" = "Enter Password";
+
+/* FACEBOOK LOGIN */
+"FACEBOOK LOGIN" = "FACEBOOK LOGIN";
+
+/* Facebook Login Error! */
+"Facebook Login Error!" = "Facebook Login Error!";
+
+/* Facebook User */
+"Facebook User" = "Facebook User";
+
+/* Failed */
+"Failed" = "Failed";
+
+/* No comment provided by engineer. */
+"failed to convert data to string" = "failed to convert data to string";
+
+/* No comment provided by engineer. */
+"failed to convert string to data" = "failed to convert string to data";
+
+/* FAVOURITES */
+"FAVOURITES" = "FAVOURITES";
+
+/* Forgot Password? */
+"Forgot Password?" = "Forgot Password?";
+
+/* Guest */
+"Guest" = "Guest";
+
+/* Have an account? */
+"Have an account?" = "Have an account?";
+
+/* HELP */
+"HELP" = "HELP";
+
+/* Home */
+"Home" = "Home";
+
+/* No comment provided by engineer. */
+"In App Purchasing Disabled" = "In App Purchasing Disabled";
+
+/* Incomplete */
+"Incomplete" = "Incomplete";
+
+/* Incorrect Format */
+"Incorrect Format" = "Incorrect Format";
+
+/* Invalid */
+"Invalid" = "Invalid";
+
+/* List of channels */
+"List of channels" = "List of channels";
+
+/* Log in */
+"Log in" = "Log in";
+
+/* LOGIN */
+"LOGIN" = "LOGIN";
+
+/* NEWS */
+"NEWS" = "NEWS";
+
+/* NO */
+"NO" = "NO";
+
+/* No comment provided by engineer. */
+"No Connection" = "No Connection";
+
+/* No items found */
+"No items found" = "No items found";
+
+/* No Videos */
+"No Videos" = "No Videos";
+
+/* Not Logged in */
+"Not Logged in" = "Not Logged in";
+
+/* Ok */
+"Ok" = "Ok";
+
+/* OK */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"Okay" = "Okay";
+
+/* Only MP4 is supported. */
+"Only MP4 is supported." = "Only MP4 is supported.";
+
+/* or */
+"or" = "or";
+
+/* PASSWORD */
+"PASSWORD" = "PASSWORD";
+
+/* Please enter a category */
+"Please enter a category" = "Please enter a category";
+
+/* Please enter a description */
+"Please enter a description" = "Please enter a description";
+
+/* Please enter a message */
+"Please enter a message" = "Please enter a message";
+
+/* Please enter a tag */
+"Please enter a tag" = "Please enter a tag";
+
+/* Please enter a title */
+"Please enter a title" = "Please enter a title";
+
+/* Please enter a valid e-mail address. */
+"Please enter a valid e-mail address." = "Please enter a valid e-mail address.";
+
+/* Please enter your email address to recover your password. */
+"Please enter your email address to recover your password." = "Please enter your email address to recover your password.";
+
+/* Please fill out your e-mail address. */
+"Please fill out your e-mail address." = "Please fill out your e-mail address.";
+
+/* Please fill out your name. */
+"Please fill out your name." = "Please fill out your name.";
+
+/* PROFILE */
+"PROFILE" = "PROFILE";
+
+/* PURCHASES */
+"PURCHASES" = "PURCHASES";
+
+/* REGISTER */
+"REGISTER" = "REGISTER";
+
+/* Register as new user */
+"Register as new user" = "Register as new user";
+
+/* RESET */
+"RESET" = "RESET";
+
+/* Restore Purchases */
+"Restore Purchases" = "Restore Purchases";
+
+/* Save */
+"Save" = "Save";
+
+/* Schedule */
+"Schedule" = "Schedule";
+
+/* Select Category... */
+"Select Category..." = "Select Category...";
+
+/* Select Video */
+"Select Video" = "Select Video";
+
+/* Sign in Failed. */
+"Sign in Failed." = "Sign in Failed.";
+
+/* Sign in success. */
+"Sign in success." = "Sign in success.";
+
+/* Success */
+"Success" = "Success";
+
+/* TAG */
+"TAG" = "TAG";
+
+/* Thank you for your message. */
+"Thank you for your message." = "Thank you for your message.";
+
+/* No comment provided by engineer. */
+"the key must not to be nil" = "the key must not to be nil";
+
+/* No comment provided by engineer. */
+"the server property must not to be nil, should use 'keyChainStoreWithServer:protocolType:' initializer to instantiate keychain store" = "the server property must not to be nil, should use 'keyChainStoreWithServer:protocolType:' initializer to instantiate keychain store";
+
+/* To restore previous purchases, please login on both devices with the same account. After logging in, your purchases will be available on all devices. */
+"To restore previous purchases, please login on both devices with the same account. After logging in, your purchases will be available on all devices." = "To restore previous purchases, please login on both devices with the same account. After logging in, your purchases will be available on all devices.";
+
+/* No comment provided by engineer. */
+"Unexpected error has occurred." = "Unexpected error has occurred.";
+
+/* Updated */
+"Updated" = "Updated";
+
+/* Upload Video */
+"Upload Video" = "Upload Video";
+
+/* VIDEOS */
+"VIDEOS" = "VIDEOS";
+
+/* No comment provided by engineer. */
+"WiFi" = "WiFi";
+
+/* Would you like to purchase 30 days access to the education section? */
+"Would you like to purchase 30 days access to the education section?" = "Would you like to purchase 30 days access to the education section?";
+
+/* YES */
+"YES" = "YES";
+
+/* You are now signed in! */
+"You are now signed in!" = "You are now signed in!";
+
+/* You must be logged in to upload videos. */
+"You must be logged in to upload videos." = "You must be logged in to upload videos.";
+
+/* Your profile has been updated */
+"Your profile has been updated" = "Your profile has been updated";
+
+/* Your video has been saved and waiting approval. */
+"Your video has been saved and waiting approval." = "Your video has been saved and waiting approval.";
+

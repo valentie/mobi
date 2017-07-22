@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GSAboutViewController">
+            <connections>
+                <outlet property="lblHeader" destination="hg8-uv-EuN" id="9kK-ev-NQY"/>
+                <outlet property="tvDetails" destination="fNn-DS-j0M" id="Hoa-o6-Yyo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="VQP-lg-Ofm">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="252"/>
+                    <color key="backgroundColor" red="0.94509803921568625" green="0.97254901960784312" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="VQP-lg-Ofm" secondAttribute="height" multiplier="50:21" id="QYG-hU-dUM"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rql-K1-ytE">
+                    <rect key="frame" x="0.0" y="252" width="600" height="34"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hg8-uv-EuN">
+                            <rect key="frame" x="8" y="8" width="584" height="21"/>
+                            <fontDescription key="fontDescription" name="Open Sans" family="Open Sans" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="hg8-uv-EuN" firstAttribute="leading" secondItem="rql-K1-ytE" secondAttribute="leadingMargin" id="9Hn-TO-5aR"/>
+                        <constraint firstAttribute="bottom" secondItem="hg8-uv-EuN" secondAttribute="bottom" constant="5" id="Eky-xI-GEc"/>
+                        <constraint firstItem="hg8-uv-EuN" firstAttribute="top" secondItem="rql-K1-ytE" secondAttribute="topMargin" id="lh3-gK-nJ3"/>
+                        <constraint firstItem="hg8-uv-EuN" firstAttribute="trailing" secondItem="rql-K1-ytE" secondAttribute="trailingMargin" id="xdL-ue-HS9"/>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Loading..." selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNn-DS-j0M">
+                    <rect key="frame" x="0.0" y="286" width="600" height="314"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="scrollIndicatorInsets" minX="20" minY="20" maxX="20" maxY="20"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.95686274510000002" green="0.96862745100000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="VQP-lg-Ofm" secondAttribute="trailing" id="2Hg-Gm-ZCk"/>
+                <constraint firstItem="VQP-lg-Ofm" firstAttribute="leading" secondItem="rql-K1-ytE" secondAttribute="leading" id="37f-AU-9uV"/>
+                <constraint firstAttribute="bottom" secondItem="fNn-DS-j0M" secondAttribute="bottom" id="8z5-6A-1JW"/>
+                <constraint firstItem="rql-K1-ytE" firstAttribute="trailing" secondItem="fNn-DS-j0M" secondAttribute="trailing" id="FJx-xw-edv"/>
+                <constraint firstItem="fNn-DS-j0M" firstAttribute="top" secondItem="rql-K1-ytE" secondAttribute="bottom" id="NK1-3n-aNS"/>
+                <constraint firstItem="fNn-DS-j0M" firstAttribute="leading" secondItem="rql-K1-ytE" secondAttribute="leading" id="e6U-go-Z5Z"/>
+                <constraint firstItem="fNn-DS-j0M" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fPP-W9-hlK"/>
+                <constraint firstItem="VQP-lg-Ofm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="h0C-43-niF"/>
+                <constraint firstItem="rql-K1-ytE" firstAttribute="top" secondItem="VQP-lg-Ofm" secondAttribute="bottom" id="mRD-mu-TD6"/>
+                <constraint firstItem="rql-K1-ytE" firstAttribute="trailing" secondItem="VQP-lg-Ofm" secondAttribute="trailing" id="rBr-cK-ERW"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="150" height="150"/>
+    </resources>
+</document>

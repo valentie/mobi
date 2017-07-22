@@ -1,0 +1,297 @@
+/*     About MOBI Television */
+"    About MOBI Television" = "    เกี่ยวกับ MOBI Television";
+
+/*     All */
+"    All" = "    ทั้งหมด";
+
+/*     Favourites */
+"    Favourites" = "    ถูกใจ";
+
+/*     Help */
+"    Help" = "    ความช่วยเหลือ";
+
+/*     Login */
+"    Login" = "    เข้าสู่ระบบ";
+
+/*     Logout */
+"    Logout" = "    ออกจากระบบ";
+
+/*     My Profile */
+"    My Profile" = "    โปรไฟล์ของฉัน";
+
+/*     My VDO */
+"    My VDO" = "    VDO ของฉัน";
+
+/*     News */
+"    News" = "    ข่าว";
+
+/*     Purchased */
+"    Purchased" = "    ซื้อ";
+
+/*     Register */
+"    Register" = "    ลงทะเบียน";
+
+/*     Restore Purchases */
+"    Restore Purchases" = "    Restore Purchases";
+
+/* %@\r\n%@ Credits */
+"%@\r\n%@ Credits" = "%1$@\r\n%2$@ เครดิต";
+
+/* ABOUT US */
+"ABOUT US" = "เกี่ยวกับเรา";
+
+/* Cancel */
+"Cancel" = "ยกเลิก";
+
+/* Cancelled by user */
+"Cancelled by user" = "Cancelled by user";
+
+/* No comment provided by engineer. */
+"Cellular" = "Cellular";
+
+/* No comment provided by engineer. */
+"Check your parental control settings and try again later" = "Check your parental control settings and try again later";
+
+/* Comments */
+"Comments" = "ความคิดเห็น";
+
+/* Confirm Purchase */
+"Confirm Purchase" = "ยืนยันการสั่งซื้อ";
+
+/* Connecting... */
+"Connecting..." = "Connecting...";
+
+/* Could not connect */
+"Could not connect" = "Could not connect";
+
+/* AFNetworking */
+"Could not decode string: %@" = "Could not decode string: %@";
+
+/* AFNetworking */
+"Data failed decoding as a UTF-8 string" = "Data failed decoding as a UTF-8 string";
+
+/* No comment provided by engineer. */
+"Dismiss" = "Dismiss";
+
+/* Enter a description */
+"Enter a description" = "ป้อนคำอธิบาย";
+
+/* Enter a tag: */
+"Enter a tag:" = "ใส่แท็ก";
+
+/* Enter Email */
+"Enter Email" = "ใส่อีเมล์";
+
+/* Enter Email or Phone */
+"Enter Email or Phone" = "ใส่อีเมลหรือโทรศัพท์";
+
+/* Enter Password */
+"Enter Password" = "ป้อนรหัสผ่าน";
+
+/* FACEBOOK LOGIN */
+"FACEBOOK LOGIN" = "FACEBOOK LOGIN";
+
+/* Facebook Login Error! */
+"Facebook Login Error!" = "Facebook Login Error!";
+
+/* Facebook User */
+"Facebook User" = "ผู้ใช้ Facebook";
+
+/* Failed */
+"Failed" = "Failed";
+
+/* No comment provided by engineer. */
+"failed to convert data to string" = "failed to convert data to string";
+
+/* No comment provided by engineer. */
+"failed to convert string to data" = "failed to convert string to data";
+
+/* FAVOURITES */
+"FAVOURITES" = "ถูกใจ";
+
+/* Forgot Password? */
+"Forgot Password?" = "ลืมรหัสผ่าน";
+
+/* Guest */
+"Guest" = "Guest";
+
+/* Have an account? */
+"Have an account?" = "มีบัญชีอยู่แล้ว";
+
+/* HELP */
+"HELP" = "ความช่วยเหลือ";
+
+/* Home */
+"Home" = "Home";
+
+/* No comment provided by engineer. */
+"In App Purchasing Disabled" = "In App Purchasing Disabled";
+
+/* Incomplete */
+"Incomplete" = "Incomplete";
+
+/* Incorrect Format */
+"Incorrect Format" = "Incorrect Format";
+
+/* Invalid */
+"Invalid" = "Invalid";
+
+/* List of channels */
+"List of channels" = "รายการของสถานี";
+
+/* Log in */
+"Log in" = "เข้าสู่ระบบ";
+
+/* LOGIN */
+"LOGIN" = "เข้าสู่ระบบ";
+
+/* NEWS */
+"NEWS" = "ข่าว";
+
+/* NO */
+"NO" = "ไม่";
+
+/* No comment provided by engineer. */
+"No Connection" = "No Connection";
+
+/* No items found */
+"No items found" = "ไม่มีรายการ";
+
+/* No Videos */
+"No Videos" = "ไม่มีวิดีโอ";
+
+/* Not Logged in */
+"Not Logged in" = "ไม่ได้เข้าสู่";
+
+/* Ok */
+"Ok" = "ตกลง";
+
+/* OK */
+"OK" = "ตกลง";
+
+/* No comment provided by engineer. */
+"Okay" = "ตกลง";
+
+/* Only MP4 is supported. */
+"Only MP4 is supported." = "ได้ MP 4 เท่านั้น";
+
+/* or */
+"or" = "หรือ";
+
+/* PASSWORD */
+"PASSWORD" = "รหัสผ่าน";
+
+/* Please enter a category */
+"Please enter a category" = "โปรดป้อนหมวดหมู่";
+
+/* Please enter a description */
+"Please enter a description" = "โปรดป้อนคำอธิบาย";
+
+/* Please enter a message */
+"Please enter a message" = "โปรดใส่ข้อความ";
+
+/* Please enter a tag */
+"Please enter a tag" = "โปรดใส่แท็ก";
+
+/* Please enter a title */
+"Please enter a title" = "โปรดป้อนชื่อ";
+
+/* Please enter a valid e-mail address. */
+"Please enter a valid e-mail address." = "โปรดป้อนที่อยู่อีเมล์ที่ถูกต้อง";
+
+/* Please enter your email address to recover your password. */
+"Please enter your email address to recover your password." = "โปรดป้อนที่อยู่อีเมลของคุณที่จะกู้คืนรหัสผ่านของคุณ";
+
+/* Please fill out your e-mail address. */
+"Please fill out your e-mail address." = "กรุณากรอกที่อยู่อีเมลของคุณ";
+
+/* Please fill out your name. */
+"Please fill out your name." = "กรุณากรอกชื่อของคุณ";
+
+/* PROFILE */
+"PROFILE" = "โปรไฟล์";
+
+/* PURCHASES */
+"PURCHASES" = "ซื้อ";
+
+/* REGISTER */
+"REGISTER" = "ลงทะเบียน";
+
+/* Register as new user */
+"Register as new user" = "ลงทะเบียนผู้ใช้ใหม่";
+
+/* RESET */
+"RESET" = "ตั้งค่าใหม่";
+
+/* Restore Purchases */
+"Restore Purchases" = "Restore Purchases";
+
+/* Save */
+"Save" = "บันทึก";
+
+/* Schedule */
+"Schedule" = "ตารางเวลา";
+
+/* Select Category... */
+"Select Category..." = "เลือกหมวดหมู่";
+
+/* Select Video */
+"Select Video" = "เลือกวิดีโอ";
+
+/* Sign in Failed. */
+"Sign in Failed." = "Sign in Failed.";
+
+/* Sign in success. */
+"Sign in success." = "เข้าสู่ระบบในความสำเร็จ";
+
+/* Success */
+"Success" = "สำเร็จ";
+
+/* TAG */
+"TAG" = "แท็ก";
+
+/* Thank you for your message. */
+"Thank you for your message." = "ขอบคุณสำหรับข้อความของคุณ";
+
+/* No comment provided by engineer. */
+"the key must not to be nil" = "the key must not to be nil";
+
+/* No comment provided by engineer. */
+"the server property must not to be nil, should use 'keyChainStoreWithServer:protocolType:' initializer to instantiate keychain store" = "the server property must not to be nil, should use 'keyChainStoreWithServer:protocolType:' initializer to instantiate keychain store";
+
+/* To restore previous purchases, please login on both devices with the same account. After logging in, your purchases will be available on all devices. */
+"To restore previous purchases, please login on both devices with the same account. After logging in, your purchases will be available on all devices." = "To restore previous purchases, please login on both devices with the same account. After logging in, your purchases will be available on all devices.";
+
+/* No comment provided by engineer. */
+"Unexpected error has occurred." = "Unexpected error has occurred.";
+
+/* Updated */
+"Updated" = "อัพเดต";
+
+/* Upload Video */
+"Upload Video" = "อัปโหลดวิดีโอ";
+
+/* VIDEOS */
+"VIDEOS" = "วิดีโอ";
+
+/* No comment provided by engineer. */
+"WiFi" = "WiFi";
+
+/* Would you like to purchase 30 days access to the education section? */
+"Would you like to purchase 30 days access to the education section?" = "Would you like to purchase 30 days access to the education section?";
+
+/* YES */
+"YES" = "YES";
+
+/* You are now signed in! */
+"You are now signed in!" = "You are now signed in!";
+
+/* You must be logged in to upload videos. */
+"You must be logged in to upload videos." = "คุณต้องลงทะเบียนในการอัปโหลดวิดีโอ";
+
+/* Your profile has been updated */
+"Your profile has been updated" = "โปรไฟล์ของคุณได้รับการปรับปรุง";
+
+/* Your video has been saved and waiting approval. */
+"Your video has been saved and waiting approval." = "วิดีโอของคุณได้รับการบันทึกไว้และรอการอนุมัติ";
+

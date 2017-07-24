@@ -1,9 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GSDetailViewController">
@@ -36,13 +39,12 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="D3x-bF-Wnw">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fsl-Zq-g0V" customClass="DZNSegmentedControl">
-                    <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
-                    <animations/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="wJw-h5-PH9"/>
                     </constraints>
@@ -51,36 +53,33 @@
                     </connections>
                 </view>
                 <view tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pga-Pu-QJb">
-                    <rect key="frame" x="0.0" y="40" width="600" height="338"/>
-                    <animations/>
-                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <rect key="frame" x="0.0" y="40" width="375" height="211.5"/>
+                    <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="pga-Pu-QJb" secondAttribute="height" multiplier="16:9" id="A3v-h9-k7M"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jtw-hf-Piu">
-                    <rect key="frame" x="0.0" y="378" width="600" height="222"/>
+                    <rect key="frame" x="0.0" y="251.5" width="375" height="415.5"/>
                     <subviews>
                         <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w4C-hw-zou">
                             <rect key="frame" x="0.0" y="1" width="600" height="30"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Please select a channel..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHf-mR-MLy">
                                     <rect key="frame" x="8" y="5" width="516" height="21"/>
-                                    <animations/>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKW-Fy-lSw">
                                     <rect key="frame" x="566" y="5" width="26" height="22"/>
-                                    <animations/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="22" id="bIJ-7l-hvo"/>
                                         <constraint firstAttribute="width" constant="26" id="keY-WY-2pg"/>
                                     </constraints>
                                     <state key="normal" image="icon_comment">
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnCommentsAndListPressed:" destination="-1" eventType="touchUpInside" id="cm7-Fw-UZM"/>
@@ -88,22 +87,20 @@
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deV-Mq-cTk">
                                     <rect key="frame" x="532" y="5" width="26" height="22"/>
-                                    <animations/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="22" id="UsD-JB-cLE"/>
                                         <constraint firstAttribute="width" constant="26" id="kxh-t2-hb4"/>
                                     </constraints>
                                     <state key="normal" image="icon_schedule">
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="btnSchedulePressed:" destination="-1" eventType="touchUpInside" id="l1V-4b-MPc"/>
                                     </connections>
                                 </button>
                             </subviews>
-                            <animations/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="zHf-mR-MLy" firstAttribute="top" secondItem="w4C-hw-zou" secondAttribute="top" constant="4" id="1e1-Kl-pOy"/>
                                 <constraint firstAttribute="bottom" secondItem="deV-Mq-cTk" secondAttribute="bottom" constant="4" id="48y-T6-HnC"/>
@@ -128,19 +125,16 @@
                                             <rect key="frame" x="0.0" y="143" width="600" height="50"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NpE-ev-DZ6" customClass="AsyncImageView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
-                                                    <animations/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dby-8T-f7x">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
-                                                    <animations/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                                     <connections>
                                                         <action selector="btnAdPressed:" destination="-1" eventType="touchUpInside" id="C7r-9X-ZrN"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <animations/>
-                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="NpE-ev-DZ6" secondAttribute="trailing" id="2XK-RI-Osg"/>
                                                 <constraint firstItem="NpE-ev-DZ6" firstAttribute="leading" secondItem="4rz-Mb-VoL" secondAttribute="leading" id="BOW-d5-E2D"/>
@@ -155,12 +149,10 @@
                                         </view>
                                         <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-uw-9Ww" customClass="GSOnDemandEducationCollectionView">
                                             <rect key="frame" x="0.0" y="1" width="600" height="142"/>
-                                            <animations/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
                                     </subviews>
-                                    <animations/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstItem="4rz-Mb-VoL" firstAttribute="leading" secondItem="Htn-7K-wSj" secondAttribute="leading" id="SMx-NL-h3o"/>
                                         <constraint firstItem="bGN-uw-9Ww" firstAttribute="leading" secondItem="Htn-7K-wSj" secondAttribute="leading" id="Wyo-8t-Fg9"/>
@@ -179,24 +171,21 @@
                                             <rect key="frame" x="0.0" y="143" width="600" height="50"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="zbj-Ev-Vya" customClass="AsyncImageView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
-                                                    <animations/>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O8g-31-4fH">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
-                                                    <animations/>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <state key="normal">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
                                                         <action selector="btnAdPressed:" destination="-1" eventType="touchUpInside" id="wfo-72-adk"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <animations/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="50" id="0eI-Ur-1Rp"/>
                                                 <constraint firstAttribute="bottom" secondItem="O8g-31-4fH" secondAttribute="bottom" id="65m-0F-xHS"/>
@@ -211,12 +200,10 @@
                                         </view>
                                         <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Mc-ij-5fU" customClass="GSOnDemandCollectionView">
                                             <rect key="frame" x="0.0" y="1" width="600" height="142"/>
-                                            <animations/>
-                                            <color key="backgroundColor" red="0.95686274510000002" green="0.96862745100000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.94620072841644287" green="0.96030831336975098" blue="0.97521597146987915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
                                     </subviews>
-                                    <animations/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstItem="8Mc-ij-5fU" firstAttribute="top" secondItem="i0D-Aj-9Az" secondAttribute="top" id="1Bk-EG-5Wc"/>
                                         <constraint firstItem="8Mc-ij-5fU" firstAttribute="leading" secondItem="i0D-Aj-9Az" secondAttribute="leading" id="Ci9-Z3-3dr"/>
@@ -232,31 +219,27 @@
                                     <subviews>
                                         <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gH6-fn-E15" customClass="GSLiveTvCollectionView">
                                             <rect key="frame" x="0.0" y="1" width="600" height="142"/>
-                                            <animations/>
-                                            <color key="backgroundColor" red="0.95686274510000002" green="0.96862745100000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.94620072841644287" green="0.96030831336975098" blue="0.97521597146987915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
                                         <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NjI-h9-j41">
                                             <rect key="frame" x="0.0" y="143" width="600" height="50"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Omi-LU-RlD" customClass="AsyncImageView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
-                                                    <animations/>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0Z-ok-u9h">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
-                                                    <animations/>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <state key="normal">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </state>
                                                     <connections>
                                                         <action selector="btnAdPressed:" destination="-1" eventType="touchUpInside" id="rOm-Pj-Ovj"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
-                                            <animations/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="m0Z-ok-u9h" firstAttribute="top" secondItem="NjI-h9-j41" secondAttribute="top" id="08O-hJ-SKd"/>
                                                 <constraint firstAttribute="height" constant="50" id="Hwm-ry-usm"/>
@@ -270,8 +253,7 @@
                                             </constraints>
                                         </view>
                                     </subviews>
-                                    <animations/>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="NjI-h9-j41" secondAttribute="trailing" id="0hV-Xl-7ri"/>
                                         <constraint firstItem="gH6-fn-E15" firstAttribute="top" secondItem="IUu-1X-wAo" secondAttribute="top" id="89k-7G-7Os"/>
@@ -287,12 +269,10 @@
                                     <subviews>
                                         <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j2b-V8-sHh" customClass="GSLiveTvScheduleCollectionView">
                                             <rect key="frame" x="0.0" y="1" width="600" height="192"/>
-                                            <animations/>
-                                            <color key="backgroundColor" red="0.95686274510000002" green="0.96862745100000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.94620072841644287" green="0.96030831336975098" blue="0.97521597146987915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
                                     </subviews>
-                                    <animations/>
-                                    <color key="backgroundColor" red="0.95686274510000002" green="0.96862745100000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.94620072841644287" green="0.96030831336975098" blue="0.97521597146987915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstItem="j2b-V8-sHh" firstAttribute="top" secondItem="p8E-cn-PGS" secondAttribute="top" id="Gz9-vB-b6l"/>
                                         <constraint firstItem="j2b-V8-sHh" firstAttribute="leading" secondItem="p8E-cn-PGS" secondAttribute="leading" id="Ov8-Lp-5eW"/>
@@ -305,12 +285,10 @@
                                     <subviews>
                                         <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vQV-aw-2uA" customClass="GSCommentsCollectionView">
                                             <rect key="frame" x="0.0" y="1" width="600" height="192"/>
-                                            <animations/>
-                                            <color key="backgroundColor" red="0.95686274510000002" green="0.96862745100000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" red="0.94620072841644287" green="0.96030831336975098" blue="0.97521597146987915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
                                     </subviews>
-                                    <animations/>
-                                    <color key="backgroundColor" red="0.95686274510000002" green="0.96862745100000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.94620072841644287" green="0.96030831336975098" blue="0.97521597146987915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstItem="vQV-aw-2uA" firstAttribute="top" secondItem="LUS-V8-aW0" secondAttribute="top" id="QHm-a1-ZIe"/>
                                         <constraint firstAttribute="bottom" secondItem="vQV-aw-2uA" secondAttribute="bottom" id="Tfu-AF-ZGi"/>
@@ -319,8 +297,7 @@
                                     </constraints>
                                 </view>
                             </subviews>
-                            <animations/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstItem="Htn-7K-wSj" firstAttribute="top" secondItem="AhJ-rY-beF" secondAttribute="top" id="4wd-k1-ebf"/>
                                 <constraint firstItem="p8E-cn-PGS" firstAttribute="top" secondItem="AhJ-rY-beF" secondAttribute="top" id="5Dv-6d-7Ny"/>
@@ -345,8 +322,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <animations/>
-                    <color key="backgroundColor" red="0.95686274510000002" green="0.96862745100000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.94620072841644287" green="0.96030831336975098" blue="0.97521597146987915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="AhJ-rY-beF" firstAttribute="leading" secondItem="Jtw-hf-Piu" secondAttribute="leading" id="0ei-mr-Gc4"/>
                         <constraint firstAttribute="trailing" secondItem="AhJ-rY-beF" secondAttribute="trailing" id="E3b-Pw-iAz"/>
@@ -358,8 +334,7 @@
                     </constraints>
                 </view>
             </subviews>
-            <animations/>
-            <color key="backgroundColor" red="0.94901960780000005" green="0.98823529409999999" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.93735802173614502" green="0.98609596490859985" blue="0.9850696325302124" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="Jtw-hf-Piu" secondAttribute="bottom" id="6g8-K1-cg9"/>
                 <constraint firstItem="Fsl-Zq-g0V" firstAttribute="leading" secondItem="D3x-bF-Wnw" secondAttribute="leading" id="AX5-PV-Emd"/>

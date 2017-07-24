@@ -125,6 +125,7 @@
         
         CGRect rect = CGRectMake(roundf(self.bounds.size.width/self.numberOfSegments)*idx, 0.0f, roundf(self.bounds.size.width/self.numberOfSegments),
                                  self.bounds.size.height);
+        
         [button setFrame:rect];
         
         CGFloat topInset = (self.barPosition > UIBarPositionBottom) ? -4.0f : 4.0f;

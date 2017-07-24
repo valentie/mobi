@@ -143,9 +143,9 @@
 		AAE31364191EF70F00982DC8 /* GSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE31363191EF70F00982DC8 /* GSAppDelegate.m */; };
 		AAE3136A191EF70F00982DC8 /* GSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE31369191EF70F00982DC8 /* GSMasterViewController.m */; };
 		AAE3136D191EF70F00982DC8 /* GSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3136C191EF70F00982DC8 /* GSDetailViewController.m */; };
-		AAE3136F191EF70F00982DC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE3136E191EF70F00982DC8 /* Images.xcassets */; };
-		EFDF22ED1F23883A00392377 /* xcode-git-hash.sh in Resources */ = {isa = PBXBuildFile; fileRef = EFDF22EB1F23883A00392377 /* xcode-git-hash.sh */; };
-		EFDF22EE1F23883A00392377 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EFDF22EC1F23883A00392377 /* Settings.bundle */; };
+		FA3827A81F25E84900512DB1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA3827A61F25E84900512DB1 /* Settings.bundle */; };
+		FA3827A91F25E84900512DB1 /* xcode-git-hash.sh in Resources */ = {isa = PBXBuildFile; fileRef = FA3827A71F25E84900512DB1 /* xcode-git-hash.sh */; };
+		FA3827AB1F260E8700512DB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3827AA1F260E8700512DB1 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -406,12 +406,12 @@
 		AAE31369191EF70F00982DC8 /* GSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSMasterViewController.m; sourceTree = "<group>"; };
 		AAE3136B191EF70F00982DC8 /* GSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSDetailViewController.h; sourceTree = "<group>"; };
 		AAE3136C191EF70F00982DC8 /* GSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSDetailViewController.m; sourceTree = "<group>"; };
-		AAE3136E191EF70F00982DC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AAE3137D191EF70F00982DC8 /* GSSplitViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSSplitViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		AAE31381191EF70F00982DC8 /* GSSplitViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSSplitViewControllerDemoTests.m; sourceTree = "<group>"; };
 		D8D268C4F0FB0597BFD5EF06 /* Pods-MOBI TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOBI TV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MOBI TV/Pods-MOBI TV.debug.xcconfig"; sourceTree = "<group>"; };
-		EFDF22EB1F23883A00392377 /* xcode-git-hash.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "xcode-git-hash.sh"; path = "../Mobi/xcode-git-hash.sh"; sourceTree = "<group>"; };
-		EFDF22EC1F23883A00392377 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Mobi/Settings.bundle; sourceTree = "<group>"; };
+		FA3827A61F25E84900512DB1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		FA3827A71F25E84900512DB1 /* xcode-git-hash.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "xcode-git-hash.sh"; sourceTree = "<group>"; };
+		FA3827AA1F260E8700512DB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../../.Trash/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -768,8 +768,8 @@
 			isa = PBXGroup;
 			children = (
 				0DB2A6281C23A038002BEE28 /* MOBI TV.entitlements */,
-				EFDF22EC1F23883A00392377 /* Settings.bundle */,
-				EFDF22EB1F23883A00392377 /* xcode-git-hash.sh */,
+				FA3827A61F25E84900512DB1 /* Settings.bundle */,
+				FA3827A71F25E84900512DB1 /* xcode-git-hash.sh */,
 				0DC511321B80DCB300772012 /* CustomElements */,
 				AAE31359191EF70F00982DC8 /* GSSplitViewControllerFiles */,
 				AAE3137B191EF70F00982DC8 /* GSSplitViewControllerDemoTests */,
@@ -852,7 +852,7 @@
 				0DAFC1F61BBB828F00345D4E /* AirplayDemoViewController.m */,
 				0DB89A091C18912E006168D4 /* GSSplashViewController.h */,
 				0DB89A0A1C18912E006168D4 /* GSSplashViewController.m */,
-				AAE3136E191EF70F00982DC8 /* Images.xcassets */,
+				FA3827AA1F260E8700512DB1 /* Images.xcassets */,
 				0D15D6421BBF8C750061BD76 /* CastFrameworkAssets.xcassets */,
 				AAE3135A191EF70F00982DC8 /* Supporting Files */,
 			);
@@ -933,7 +933,7 @@
 				ORGANIZATIONNAME = "Mindzone Company Limited";
 				TargetAttributes = {
 					AAE3134F191EF70F00982DC8 = {
-						DevelopmentTeam = QUNR92E3F9;
+						DevelopmentTeam = R786SGSJHZ;
 						SystemCapabilities = {
 							com.apple.InterAppAudio = {
 								enabled = 0;
@@ -976,6 +976,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D6938E21BFB769900F11872 /* FontAwesome.ttf in Resources */,
+				FA3827AB1F260E8700512DB1 /* Images.xcassets in Resources */,
 				0D0837691B91D3F200A277FB /* NavBarIconSearch_blue.png in Resources */,
 				0D8C7DF31BFADD7500FD5928 /* SIAlertView.bundle in Resources */,
 				0DA55F331B81E8A30050D745 /* GSForgotPasswordViewController.xib in Resources */,
@@ -990,6 +991,7 @@
 				0DA55F5A1B845E820050D745 /* GSNewsArticleViewController.xib in Resources */,
 				0D4AA2CB1B8091550098B7E4 /* GSDetailViewController.xib in Resources */,
 				0D3FA4C91B8AE82E00767E81 /* GSProfileViewController.xib in Resources */,
+				FA3827A91F25E84900512DB1 /* xcode-git-hash.sh in Resources */,
 				0D15D6431BBF8C750061BD76 /* CastFrameworkAssets.xcassets in Resources */,
 				0DA55F4D1B8317E20050D745 /* GSAboutViewController.xib in Resources */,
 				0D0837651B91D3F200A277FB /* NavBarIconSearchBar2_blue.png in Resources */,
@@ -998,12 +1000,10 @@
 				0D3FA4BA1B8AD65500767E81 /* GSFavouritesViewController.xib in Resources */,
 				0D2A0AE41BAC2E9300F6362A /* VideoCollectionViewCell.xib in Resources */,
 				0D08376B1B91D3F200A277FB /* NavBarIconSearch_white.png in Resources */,
-				AAE3136F191EF70F00982DC8 /* Images.xcassets in Resources */,
-				EFDF22EE1F23883A00392377 /* Settings.bundle in Resources */,
 				0D0837631B91D3F200A277FB /* NavBarIconSearchBar_blue.png in Resources */,
+				FA3827A81F25E84900512DB1 /* Settings.bundle in Resources */,
 				0D2A0AD41BAAF64A00F6362A /* ScheduleListCollectionViewCell.xib in Resources */,
 				0D0837671B91D3F200A277FB /* NavBarIconSearchCircle_blue.png in Resources */,
-				EFDF22ED1F23883A00392377 /* xcode-git-hash.sh in Resources */,
 				0D3FA4C41B8AD8E200767E81 /* GSVideosViewController.xib in Resources */,
 				0D3FA4B01B8ACC2200767E81 /* GSNewsTableViewCell.xib in Resources */,
 				0D2A0ACF1BAAF13700F6362A /* ListCollectionViewCell.xib in Resources */,
@@ -1080,7 +1080,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		EFDF22EF1F23886B00392377 /* ShellScript */ = {
@@ -1328,6 +1328,7 @@
 				CODE_SIGN_ENTITLEMENTS = "MOBI TV.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R786SGSJHZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1343,9 +1344,10 @@
 					"-lz",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.mobitelevision.MOBI-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.mobitelevision.MOBI-TV2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "41f51820-a18b-4a67-8190-51188060dcff";
+				PROVISIONING_PROFILE = "ff20c829-a2a0-485f-ac4e-663d42e3ecdd";
+				PROVISIONING_PROFILE_SPECIFIER = "Mobi Dev Cert";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
@@ -1363,6 +1365,7 @@
 				CODE_SIGN_ENTITLEMENTS = "MOBI TV.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R786SGSJHZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1378,9 +1381,10 @@
 					"-lz",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "net.mobitelevision.MOBI-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.mobitelevision.MOBI-TV2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "41f51820-a18b-4a67-8190-51188060dcff";
+				PROVISIONING_PROFILE = "ff20c829-a2a0-485f-ac4e-663d42e3ecdd";
+				PROVISIONING_PROFILE_SPECIFIER = "Mobi Dev Cert";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;

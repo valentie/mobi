@@ -145,7 +145,6 @@
 		AAE3136D191EF70F00982DC8 /* GSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3136C191EF70F00982DC8 /* GSDetailViewController.m */; };
 		FA3827A81F25E84900512DB1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA3827A61F25E84900512DB1 /* Settings.bundle */; };
 		FA3827A91F25E84900512DB1 /* xcode-git-hash.sh in Resources */ = {isa = PBXBuildFile; fileRef = FA3827A71F25E84900512DB1 /* xcode-git-hash.sh */; };
-		FA3827AB1F260E8700512DB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3827AA1F260E8700512DB1 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -409,9 +408,9 @@
 		AAE3137D191EF70F00982DC8 /* GSSplitViewControllerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSSplitViewControllerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		AAE31381191EF70F00982DC8 /* GSSplitViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSSplitViewControllerDemoTests.m; sourceTree = "<group>"; };
 		D8D268C4F0FB0597BFD5EF06 /* Pods-MOBI TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOBI TV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MOBI TV/Pods-MOBI TV.debug.xcconfig"; sourceTree = "<group>"; };
+		EF3565431F26FBA900F5E103 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA3827A61F25E84900512DB1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		FA3827A71F25E84900512DB1 /* xcode-git-hash.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "xcode-git-hash.sh"; sourceTree = "<group>"; };
-		FA3827AA1F260E8700512DB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../../.Trash/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -852,7 +851,7 @@
 				0DAFC1F61BBB828F00345D4E /* AirplayDemoViewController.m */,
 				0DB89A091C18912E006168D4 /* GSSplashViewController.h */,
 				0DB89A0A1C18912E006168D4 /* GSSplashViewController.m */,
-				FA3827AA1F260E8700512DB1 /* Images.xcassets */,
+				EF3565431F26FBA900F5E103 /* Images.xcassets */,
 				0D15D6421BBF8C750061BD76 /* CastFrameworkAssets.xcassets */,
 				AAE3135A191EF70F00982DC8 /* Supporting Files */,
 			);
@@ -976,7 +975,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D6938E21BFB769900F11872 /* FontAwesome.ttf in Resources */,
-				FA3827AB1F260E8700512DB1 /* Images.xcassets in Resources */,
 				0D0837691B91D3F200A277FB /* NavBarIconSearch_blue.png in Resources */,
 				0D8C7DF31BFADD7500FD5928 /* SIAlertView.bundle in Resources */,
 				0DA55F331B81E8A30050D745 /* GSForgotPasswordViewController.xib in Resources */,
@@ -1080,7 +1078,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EFDF22EF1F23886B00392377 /* ShellScript */ = {

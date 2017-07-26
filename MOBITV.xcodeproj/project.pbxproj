@@ -1362,7 +1362,7 @@
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "MOBI TV.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = R786SGSJHZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -1381,8 +1381,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "net.mobitelevision.MOBI-TV2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ff20c829-a2a0-485f-ac4e-663d42e3ecdd";
-				PROVISIONING_PROFILE_SPECIFIER = "Mobi Dev Cert";
+				PROVISIONING_PROFILE = "adef2cc7-aefc-4c93-8bb0-1abe880b30a7";
+				PROVISIONING_PROFILE_SPECIFIER = "Mobi TV Adhoc";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;

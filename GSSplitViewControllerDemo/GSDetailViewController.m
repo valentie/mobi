@@ -315,7 +315,7 @@ static NSString * kReceiverAppID;
         self.segmentedControl.autoAdjustSelectionIndicatorWidth = NO;
         self.segmentedControl.tintColor = [UIColor colorWithRed:11/255.0 green:167/255.0 blue:157/255.0 alpha:1.0];
         self.segmentedControl.delegate = self;
-        
+        self.segmentedControl.width = [[UIScreen mainScreen] bounds].size.width;
         self.title = @"iC Live";
         [self.viewComments setHidden:YES];
         [self.viewSchedule setHidden:YES];

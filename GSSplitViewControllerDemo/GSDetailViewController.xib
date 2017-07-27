@@ -337,12 +337,12 @@
             <color key="backgroundColor" red="0.93735802173614502" green="0.98609596490859985" blue="0.9850696325302124" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="Jtw-hf-Piu" secondAttribute="bottom" id="6g8-K1-cg9"/>
-                <constraint firstItem="Fsl-Zq-g0V" firstAttribute="leading" secondItem="D3x-bF-Wnw" secondAttribute="leading" id="AX5-PV-Emd"/>
                 <constraint firstItem="Fsl-Zq-g0V" firstAttribute="top" secondItem="D3x-bF-Wnw" secondAttribute="top" id="CZE-rr-ttW"/>
+                <constraint firstItem="Fsl-Zq-g0V" firstAttribute="leading" secondItem="D3x-bF-Wnw" secondAttribute="leading" id="Ehz-jW-2by"/>
                 <constraint firstItem="Jtw-hf-Piu" firstAttribute="top" secondItem="pga-Pu-QJb" secondAttribute="bottom" id="FfV-H9-VbQ"/>
                 <constraint firstItem="pga-Pu-QJb" firstAttribute="top" secondItem="Fsl-Zq-g0V" secondAttribute="bottom" id="HsD-S0-4nJ"/>
                 <constraint firstAttribute="trailing" secondItem="pga-Pu-QJb" secondAttribute="trailing" id="Kbo-PD-zkk"/>
-                <constraint firstAttribute="trailing" secondItem="Fsl-Zq-g0V" secondAttribute="trailing" id="Vwg-S8-HOo"/>
+                <constraint firstAttribute="trailing" secondItem="Fsl-Zq-g0V" secondAttribute="trailing" id="PBe-Cs-A6x"/>
                 <constraint firstItem="pga-Pu-QJb" firstAttribute="leading" secondItem="D3x-bF-Wnw" secondAttribute="leading" id="X9l-I2-kHJ"/>
                 <constraint firstItem="Jtw-hf-Piu" firstAttribute="leading" secondItem="D3x-bF-Wnw" secondAttribute="leading" id="bfq-JD-QZv"/>
                 <constraint firstAttribute="trailing" secondItem="Jtw-hf-Piu" secondAttribute="trailing" id="bk4-wD-KSd"/>
@@ -353,6 +353,6 @@
     <resources>
         <image name="icon_comment" width="136" height="115"/>
         <image name="icon_schedule" width="136" height="115"/>
-        <image name="logo" width="150" height="150"/>
+        <image name="logo" width="266" height="200"/>
     </resources>
 </document>

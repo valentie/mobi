@@ -304,7 +304,6 @@
         frame.size = CGSizeMake(button.frame.size.width, self.selectionIndicatorHeight);
         frame.origin.x = (button.frame.size.width*(self.selectedSegmentIndex));
     }
-    
     return frame;
 }
 

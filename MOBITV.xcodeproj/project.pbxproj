@@ -143,6 +143,7 @@
 		AAE31364191EF70F00982DC8 /* GSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE31363191EF70F00982DC8 /* GSAppDelegate.m */; };
 		AAE3136A191EF70F00982DC8 /* GSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE31369191EF70F00982DC8 /* GSMasterViewController.m */; };
 		AAE3136D191EF70F00982DC8 /* GSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3136C191EF70F00982DC8 /* GSDetailViewController.m */; };
+		EFF1DBB61F7A31BB00851146 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3565431F26FBA900F5E103 /* Images.xcassets */; };
 		FA3827A81F25E84900512DB1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA3827A61F25E84900512DB1 /* Settings.bundle */; };
 		FA3827A91F25E84900512DB1 /* xcode-git-hash.sh in Resources */ = {isa = PBXBuildFile; fileRef = FA3827A71F25E84900512DB1 /* xcode-git-hash.sh */; };
 /* End PBXBuildFile section */
@@ -975,6 +976,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D6938E21BFB769900F11872 /* FontAwesome.ttf in Resources */,
+				EFF1DBB61F7A31BB00851146 /* Images.xcassets in Resources */,
 				0D0837691B91D3F200A277FB /* NavBarIconSearch_blue.png in Resources */,
 				0D8C7DF31BFADD7500FD5928 /* SIAlertView.bundle in Resources */,
 				0DA55F331B81E8A30050D745 /* GSForgotPasswordViewController.xib in Resources */,

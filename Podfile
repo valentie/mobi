@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 use_frameworks!
 
 
@@ -13,7 +13,7 @@ target 'MOBI TV' do
   pod 'UICKeyChainStore'
   pod 'FCUUID'
   pod 'ConnectSDK'
-  #    , :git => 'https://github.com/ConnectSDK/Connect-SDK-iOS.git', :branch => 'dev'
+#  , :git => 'https://github.com/ConnectSDK/Connect-SDK-iOS.git', :branch => 'dev'
   pod 'Bolts'
   pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'

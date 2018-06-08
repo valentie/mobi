@@ -41,8 +41,8 @@ typedef enum {
 #define PAYPAL_PRODUCTIONID @"AS8f1wv4TxeQwMXOkOuIEperPsUr_QwI6GL-5i04AVLeV-nSvG7SnVZi61bTKlin0FNejkcA-UzS94q6"
 
 
-//#define API_HOST @"104.236.5.233/index.php"
-#define API_HOST @"www.mobitelevision.tv"
+#define API_HOST @"1.179.246.164/index.php"
+//#define API_HOST @"www.mobitelevision.tv"
 
 #define API_SHAREURL @"http://www.mobitelevision.tv/app/deeplink/"
 #define API_END_POINT @"api/service/format/json/request/"
